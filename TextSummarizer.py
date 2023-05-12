@@ -15,7 +15,7 @@ from tensorflow.python.ops.rnn_cell_impl import _zero_state_tensors
 print('TensorFlow Version: {}'.format(tf.__version__))
 
 
-# ## Insepcting the Data
+# ## Inspecting data
 
 # In[2]:
 !pip install -U -q PyDrive
@@ -56,7 +56,7 @@ reviews.isnull().sum()
 
 # In[6]:
 
-# Remove null values and unneeded features
+# Remove null values and irrelevant features
 reviews = reviews.dropna()
 reviews = reviews.drop(['Id','ProductId','UserId','ProfileName','HelpfulnessNumerator','HelpfulnessDenominator',
                         'Score','Time'], 1)
@@ -78,7 +78,7 @@ for i in range(5):
     print()
 
 
-# ## Preparing the Data
+# ## Preparing data
 
 # In[9]:
 
