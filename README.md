@@ -1,3 +1,3 @@
-# Text_Summarizer
+# Text Summarizer
 
-The project provides a Text-Summarization tool using Natural Language Processing in Machine Learning.
+Utilized Natural Language Processing to develop a Seq2Seq model capable of producing concise summaries from a dataset of 500,000+ reviews. Trained and built the model utilizing Python libraries including NumPy, Pandas, and NLTK.
